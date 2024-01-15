@@ -1,7 +1,7 @@
 const Notes = ({count}) => {
     return (
         <div className="">
-            <h5>Note <button className='border-0 bg-white'>{count}</button></h5>
+            <h5>Note <button className='border-0 rounded'>{count}</button></h5>
         </div>
     )
 }

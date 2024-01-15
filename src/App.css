@@ -2,11 +2,13 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  border: none;
+  margin-left: 3px;
 }
 
 .myCard{
-  border-left: 3px solid blue;
-  border-radius: 0 0 5px 0;
+  border-left: 5px solid blue;
+  border-radius: 5px;
   text-align: center;
 }
 
@@ -15,4 +17,35 @@
   cursor: pointer;
 }
 
+.App {
+  /* text-align: center; */
+  min-height: 800px;
+  height: 100%;
+  background: linear-gradient(90deg, rgb(77, 201, 230), rgb(33, 12, 172));
+}
+.btn-bg{
+  width: 22.5px;
+  height: 22.5px;
+}
+.gradientOne{
+  background: linear-gradient(90deg, rgb(77, 201, 230), rgb(33, 12, 172));
+}
+.gradientTwo{
+  background-color: #a9c9ff;
+  background-image: linear-gradient(180deg,#a9c9ff,#ffbbec);
+}
+.gradientThree{
+  background-color: #fa8bff;
+  background-image: linear-gradient(45deg,#fa8bff,#2bd2ff 52%,#2bff88 90%);
+}
+.gradientFour{
+  background-image: linear-gradient(to bottom right,#ff512f,#dd2476);
+}
+.gradientFive{
+  background-image: linear-gradient(to bottom right,#fd8451,#ffbd6f);
+}
+.gradientSix{
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg,#85ffbd,#fffb7d);
+}
 

@@ -10,7 +10,7 @@ const Input = ({ type, name, onChange, value }) => {
           onChange={onChange}
           id={name}
           name={name}
-          placeholder='Enter text...'
+          placeholder='Add note...'
           className="form-control "
         />
       

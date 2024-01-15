@@ -1,8 +1,8 @@
 
-const ClearAll = () => {
+const ClearAll = ({deleteAll}) => {
     return (
         <div className="">
-            <button className="btn btn-primary">Clear All</button>
+            <button className="btn btn-primary" onClick={deleteAll}>Clear All</button>
         </div>
     )
 }
